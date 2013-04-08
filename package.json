@@ -1,0 +1,13 @@
+{
+    "name"         : "scripts",
+    "version"      : "0.0.1",
+    "dependencies" : {
+        "srunner"  : "~0.1.0",
+        "async"    : "~0.2.6",
+        "optimist" : "~0.3.5",
+        "semver"   : "~1.1.4"
+    },
+    "devDependencies" : {
+        "mocha"  : "~1.8.1"
+    }
+}
