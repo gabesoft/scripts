@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require('../lib/version_and_tag.js');
+
