@@ -13,7 +13,7 @@ start() {
     if [[ -f $pid_file ]]; then
         echo "$pid_file exists, process is already running or crashed";
     else
-        echo "Settind current working directory to $app_cwd";
+        echo "Setting current working directory to $app_cwd";
         cd $app_cwd
 
         echo "Starting node process $app_exe ...";
