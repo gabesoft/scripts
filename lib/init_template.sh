@@ -16,7 +16,7 @@ start() {
         echo "Setting current working directory to $app_cwd";
         cd $app_cwd
 
-        echo "Starting node process $app_exe ...";
+        echo "Starting process $app_exe ...";
         $app_exe $app_args 1>$log_file 2>&1 &
 
         echo $! > $pid_file;
@@ -27,7 +27,7 @@ stop() {
     if [[ ! -f $pid_file ]]; then
         echo "$pid_file does not exist, process is not running";
     else
-        echo "Stopping node process $app_exe ...";
+        echo "Stopping process $app_exe ...";
         kill `cat $pid_file`;
         rm -f $pid_file;
 
