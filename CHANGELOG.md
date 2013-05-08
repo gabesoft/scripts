@@ -1,3 +1,7 @@
+0.0.5
+-----
+Watchfs version bump
+
 0.0.4
 -----
 Added coffee watch script
