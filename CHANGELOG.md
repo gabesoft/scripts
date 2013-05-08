@@ -1,3 +1,7 @@
+0.0.6
+-----
+Logging fixes
+
 0.0.5
 -----
 Watchfs version bump
