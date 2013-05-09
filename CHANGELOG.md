@@ -1,3 +1,7 @@
+0.0.7
+-----
+Logging fixes
+
 0.0.6
 -----
 Logging fixes
