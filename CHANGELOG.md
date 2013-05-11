@@ -1,3 +1,7 @@
+0.0.8
+-----
+Restart watcher flag + better logging
+
 0.0.7
 -----
 Logging fixes
