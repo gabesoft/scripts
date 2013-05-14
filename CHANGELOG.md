@@ -1,3 +1,7 @@
+0.0.9
+-----
+Increased soft ulimit for coffee watchers
+
 0.0.8
 -----
 Restart watcher flag + better logging

@@ -1,6 +1,6 @@
 {
   "name": "scripts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": {
     "colors": "~0.6.0",
     "srunner": "~0.1.2",
