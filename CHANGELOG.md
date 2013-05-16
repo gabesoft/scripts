@@ -1,3 +1,7 @@
+0.0.10
+-----
+Watchfs version bump
+
 0.0.9
 -----
 Increased soft ulimit for coffee watchers
