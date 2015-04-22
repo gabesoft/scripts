@@ -1,0 +1,7 @@
+#!/bin/sh
+
+BRANCH_NAME=$1
+REVIEW_DIR="$GIT_DIR/../review-data"
+
+echo running post branch delete hook for $BRANCH_NAME
+rm -vf $REVIEW_DIR/$BRANCH_NAME.*
