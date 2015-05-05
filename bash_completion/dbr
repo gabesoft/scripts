@@ -1,0 +1,25 @@
+# Save to /etc/bash_completion.d/dbr
+# or      $(brew --prefix)/etc/bash_completion.d/dbr
+__dbr() {
+  local cur prev opts
+  COMPREPLY=()
+  cur="${COMP_WORDS[COMP_CWORD]}"
+  prev="${COMP_WORDS[COMP_CWORD-1]}"
+  opts="--pattern --remote --test --force --help"
+
+  case "${prev}" in
+    --pattern|-p)
+      local branches=$(__git_refs)
+      COMPREPLY=($(compgen -W "${branches}" -- ${cur}))
+      ;;
+    *)
+      if [[ ${cur} == -* ]]; then
+        COMPREPLY=($(compgen -W "${opts}" -- ${cur}))
+        return 0
+      fi
+
+      ;;
+  esac
+}
+
+complete -F __dbr dbr
