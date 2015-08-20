@@ -2,16 +2,16 @@
   "name": "scripts",
   "version": "0.0.10",
   "dependencies": {
-    "colors": "~0.6.0",
-    "srunner": "~0.1.2",
     "async": "~0.2.6",
-    "optimist": "~0.3.5",
-    "glob": "~3.2.1",
-    "semver": "~1.1.4",
+    "colors": "~0.6.0",
     "dateformat": "~1.0.6",
-    "watchfs": "git+https://github.com/gabesoft/watchfs.git#v0.0.3",
+    "glob": "~3.2.1",
     "growl": "~1.7.0",
-    "posix": "~1.0.0"
+    "optimist": "~0.3.5",
+    "posix": "^2.0.1",
+    "semver": "~1.1.4",
+    "srunner": "~0.1.2",
+    "watchfs": "git+https://github.com/gabesoft/watchfs.git#v0.0.3"
   },
   "devDependencies": {
     "mocha": "~1.8.1"
